@@ -15,7 +15,7 @@ import tensorflow as tf
 import os
 
 if tf.__version__.split('.')[1] == '13':
-    raise Exception('This notebook is not compatible with Tensorflow 1.13, please use the previous version at https://github.com/tensorflow/tpu/blob/913cf31d85bc31541fbdafa9d0b87db71dd6dcba/tools/colab/shakespeare_with_tpu_and_keras.ipynb')
+    raise Exception('')
 
 # This address identifies the TPU we'll use when configuring TensorFlow.
 TPU_WORKER = 'grpc://' + os.environ['COLAB_TPU_ADDR']
