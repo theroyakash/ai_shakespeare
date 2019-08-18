@@ -6,7 +6,7 @@ This ML Model is based on huge amount of data, best practice is to use Tensor Pr
 
 This example uses [tf.keras](https://www.tensorflow.org/guide/keras) to build a language model and I trained it on a Google Cloud TPU. This language model predicts the next character of text given the text so far. The trained model can generate new snippets of text that read in a similar style to the text training data.
 
-The model trains for 10 epochs and completes in approximately 5 minutes.
+The model trains for 10 epochs and completes in approximately 2 minutes.
 
 ![screenshots](./epochs.png)
 
