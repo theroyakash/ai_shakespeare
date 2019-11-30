@@ -9,6 +9,7 @@ Original file is located at
 """
 # Downloading the data:
 !wget --show-progress --continue -O /content/shakespeare.txt http://www.gutenberg.org/files/100/100-0.txt
+# Code is implemented in Google Colab Jupyter Notebook
 
 import numpy as np
 import tensorflow as tf
@@ -123,75 +124,3 @@ for i in range(BATCH_SIZE):
   print(generated)
   print()
   assert len(generated) == PREDICT_LEN, 'Generated text too short'
-
-"""---
-Output Prediction:
-    
-PREDICTION 0
-
-
- Therefore this
-A livery write time toking. Now, are there, my father
-Is little-a cloudy plucks on my will,
-Lest the virtue of the condition
-Did give us beleathes, tis rascal,
-They of Carrier. Where is it that I,
-But, Lord Ha! in water-bravely,
-
-PREDICTION 1
-
-
- Disch sleep.
-
-BATES.
-With a son, your daughter.                     Come, lady?
-
-
-           117
-
-She seemly commandd, how any arrow and the wealth
-As after you are no practice.
-  To whose matter voice of it, his throat opruction, take the
-
-PREDICTION 2
-
-
- my father, man,
-And say the Nurserall from your double rejoicing; the nobler thoughts,
-Which everlasting haste?
-
-FIRST SOLDIT.
-It shall be the friends.
-
- [_Arais_.]
-
-HAMLET.
-So husbands on recots are so far with wed of Rosalind.
-
-GUIDERI
-
-PREDICTION 3
-
-
- At what! you know
-If you shall not, gentle wicked.
-
-CORNELIUS.
-Lets all
-As my lord for most my deard.
-Or if we want few so charge: ufter, and this fed
-Of themservation, spokes with thy difference,
-Should have been silence, till our light
-To
-
-PREDICTION 4
-
-
- By my tribus swift
-  diseases burding. That's a puttish help. ORLANDO. Let it him
-    hap in gracious.
-  CAESAR. You are this little motile,
-    And let the elder soldier,
-    To put together-tenting habits,
-    Betwixt the wind I so? And this
-"""
